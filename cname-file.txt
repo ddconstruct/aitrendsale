@@ -1,0 +1,4 @@
+# Replace with your domain when you have one
+# Example: aitrends.shop
+# 
+# Leave this file commented out until you have a domain

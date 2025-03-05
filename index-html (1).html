@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendShop - Your One-Stop Shop for Trending AI Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">TrendShop</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Stay Ahead with AI Technology Trends</h1>
+            <p>Discover the latest AI tools, accessories, and guides to boost your productivity and stay on the cutting edge.</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <h2 class="section-heading">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Fast Delivery</h3>
+                    <p>Get instant access to your digital products immediately after purchase.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💯</div>
+                    <h3 class="feature-title">Quality Assurance</h3>
+                    <p>All our products are carefully created and guaranteed to provide exceptional value.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Secure Payments</h3>
+                    <p>Your transactions are protected with PayPal's industry-leading security measures.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Money-Back Guarantee</h3>
+                    <p>Not satisfied? Get a full refund within 30 days, no questions asked.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="trending-products" id="products">
+        <div class="container">
+            <h2 class="section-heading">Trending AI Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-guide.jpg" alt="AI Productivity Guide" />
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">AI Productivity Guide 2025</h3>
+                        <p class="product-price">$29.99</p>
+                        <p class="product-description">Learn how to use Claude, ChatGPT, and other AI tools to 10x your productivity in any field.</p>
+                        <button class="buy-button" onclick="openPaymentModal('AI Productivity Guide 2025', 29.99, 'guide')">Buy Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-masterclass.jpg" alt="AI Prompt Engineering Masterclass" />
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">AI Prompt Engineering Masterclass</h3>
+                        <p class="product-price">$49.99</p>
+                        <p class="product-description">Advanced techniques to get better results from AI tools with expert-level prompting strategies.</p>
+                        <button class="buy-button" onclick="openPaymentModal('AI Prompt Engineering Masterclass', 49.99, 'masterclass')">Buy Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-toolkit.jpg" alt="AI Business Integration Kit" />
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">AI for Business Toolkit</h3>
+                        <p class="product-price">$79.99</p>
+                        <p class="product-description">Complete guide to integrating AI into your business operations to reduce costs and increase revenue.</p>
+                        <button class="buy-button" onclick="openPaymentModal('AI for Business Toolkit', 79.99, 'toolkit')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-heading">What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The AI Productivity Guide completely transformed how I work. I'm saving at least 15 hours per week now!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <p class="author-name">Sarah Johnson</p>
+                            <p class="author-title">Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The prompt engineering course was exactly what I needed. My results with AI tools improved dramatically."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <p class="author-name">Michael Chen</p>
+                            <p class="author-title">Software Developer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Thanks to the Business Toolkit, we've automated our customer service and seen a 40% increase in satisfaction scores."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"></div>
+                        <div>
+                            <p class="author-name">James Wilson</p>
+                            <p class="author-title">Small Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>TrendShop</h3>
+                    <p>Your one-stop shop for staying ahead with the latest AI trends and products.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>Email: info@trendshop.com</li>
+                        <li>Phone: (555) 123-4567</li>
+                        <li>Address: 123 Tech Street, Digital City</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Stay Connected</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TrendShop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <button class="close-button" onclick="closeModal()">✕</button>
+            <h3 id="modalTitle">Complete Your Purchase</h3>
+            <p id="modalProduct"></p>
+            <div id="paypal-button-container" style="margin-top: 20px;"></div>
+            <div id="success-message" style="display: none;">
+                <h3 style="color: green; margin: 20px 0;">Payment Successful!</h3>
+                <p>Thank you for your purchase!</p>
+                <p>You will receive an email with download instructions shortly.</p>
+                <button id="download-button" style="background-color: #4a6fff; color: white; border: none; padding: 10px 15px; border-radius: 5px; margin-top: 15px; cursor: pointer;">Download Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
